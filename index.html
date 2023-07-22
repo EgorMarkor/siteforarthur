@@ -19,21 +19,26 @@
       padding: 0;
       margin: 0;
     }
-     .card {
+  .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   height: 400px;
   margin: auto;
   text-align: center;
   font-family: sans-serif;
+  border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 20px;
 }
 
 img {
-
   width: 100%;
+  border-radius: 10px;
+}
  .price {
   font-size: 20px;
-}
 }
  .card button {
   border: none;
@@ -44,14 +49,10 @@ img {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
+  font-size: 12px;
   position: absolute;
-  bottom: 0;
-}
-#sm {
-  max-width:100%;
-  width: 40%;
-  height: auto;
+  bottom: 1%;
+  border-radius: 30px;
 }
 .row {padding: 10px;}
 CSS
@@ -218,7 +219,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -232,7 +233,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -246,7 +247,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -260,7 +261,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -274,7 +275,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="alert(this.parentNode.innerText">Заказать</button>
+                <button onclick="alert(this.parentNode.innerText">Купить</button>
             </div>
         </section>
     </li>
@@ -288,7 +289,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="alert(this.parentNode.innerText">Заказать</button>
+                <button onclick="alert(this.parentNode.innerText">Купить</button>
             </div>
         </section>
     </li>
@@ -302,7 +303,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -316,7 +317,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -330,7 +331,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -344,7 +345,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -358,7 +359,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -372,7 +373,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -386,7 +387,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -400,7 +401,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -414,7 +415,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -428,7 +429,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -442,7 +443,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -456,7 +457,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -470,7 +471,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -484,7 +485,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -498,7 +499,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -512,7 +513,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -526,7 +527,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -540,7 +541,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -554,7 +555,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -568,7 +569,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -582,7 +583,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -596,7 +597,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -610,7 +611,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -624,7 +625,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -638,7 +639,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -652,7 +653,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -666,7 +667,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -680,7 +681,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -694,7 +695,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -708,7 +709,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -722,7 +723,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -736,7 +737,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -750,7 +751,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -764,7 +765,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -778,7 +779,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -792,7 +793,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -806,7 +807,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -820,7 +821,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -834,7 +835,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -848,7 +849,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -862,7 +863,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -876,7 +877,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -890,7 +891,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -904,7 +905,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.302 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -918,7 +919,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -932,7 +933,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -946,7 +947,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -960,7 +961,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -974,7 +975,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -988,7 +989,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1002,7 +1003,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1016,7 +1017,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1030,7 +1031,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1044,7 +1045,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1058,7 +1059,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1072,7 +1073,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1086,7 +1087,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1100,7 +1101,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1114,7 +1115,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1128,7 +1129,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1142,7 +1143,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1156,7 +1157,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1170,7 +1171,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1184,7 +1185,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1198,7 +1199,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1212,7 +1213,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1226,7 +1227,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1240,7 +1241,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1254,7 +1255,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1268,7 +1269,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1282,7 +1283,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1296,7 +1297,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1310,7 +1311,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1324,7 +1325,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1338,7 +1339,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1352,7 +1353,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1366,7 +1367,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1380,7 +1381,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1394,7 +1395,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1408,7 +1409,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1422,7 +1423,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1436,7 +1437,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1450,7 +1451,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1464,7 +1465,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1478,7 +1479,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1492,7 +1493,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.800 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1506,7 +1507,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1520,7 +1521,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1534,7 +1535,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1548,7 +1549,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1562,7 +1563,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1576,7 +1577,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1590,7 +1591,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1604,7 +1605,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1618,7 +1619,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1632,7 +1633,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1646,7 +1647,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1660,7 +1661,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.700 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1674,7 +1675,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1688,7 +1689,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1702,7 +1703,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1716,7 +1717,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1730,7 +1731,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1744,7 +1745,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1758,7 +1759,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1772,7 +1773,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1786,7 +1787,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1800,7 +1801,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1814,7 +1815,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.650 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1828,7 +1829,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1842,7 +1843,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1856,7 +1857,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1870,7 +1871,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.490 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1884,7 +1885,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1898,7 +1899,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1912,7 +1913,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1926,7 +1927,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1940,7 +1941,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.025 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1954,7 +1955,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1968,7 +1969,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1982,7 +1983,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.760 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -1996,7 +1997,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.490 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2010,7 +2011,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2024,7 +2025,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2038,7 +2039,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.180 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2052,7 +2053,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2066,7 +2067,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2080,7 +2081,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2094,7 +2095,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2108,7 +2109,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2122,7 +2123,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2136,7 +2137,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2150,7 +2151,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.260 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2164,7 +2165,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2178,7 +2179,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.420 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2192,7 +2193,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2206,7 +2207,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2220,7 +2221,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2234,7 +2235,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2248,7 +2249,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.820 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2262,7 +2263,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2276,7 +2277,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2290,7 +2291,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2304,7 +2305,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2318,7 +2319,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2332,7 +2333,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2346,7 +2347,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2360,7 +2361,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2374,7 +2375,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2388,7 +2389,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2402,7 +2403,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2416,7 +2417,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2430,7 +2431,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2444,7 +2445,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2458,7 +2459,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2472,7 +2473,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2486,7 +2487,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2500,7 +2501,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2514,7 +2515,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2528,7 +2529,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2542,7 +2543,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2556,7 +2557,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2570,7 +2571,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2584,7 +2585,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2598,7 +2599,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.210 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2612,7 +2613,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.630 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2626,7 +2627,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2640,7 +2641,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2654,7 +2655,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2668,7 +2669,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.690 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2682,7 +2683,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2696,7 +2697,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2710,7 +2711,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.820 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2724,7 +2725,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2738,7 +2739,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2752,7 +2753,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2766,7 +2767,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2780,7 +2781,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2794,7 +2795,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.350 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2808,7 +2809,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2822,7 +2823,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2836,7 +2837,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2850,7 +2851,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2864,7 +2865,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2878,7 +2879,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2892,7 +2893,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2906,7 +2907,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2920,7 +2921,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2934,7 +2935,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.490 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2948,7 +2949,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2962,7 +2963,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2976,7 +2977,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -2990,7 +2991,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.520 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3004,7 +3005,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.110 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3018,7 +3019,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3032,7 +3033,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.050 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3046,7 +3047,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3060,7 +3061,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3074,7 +3075,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">Цену уточняйте у админа</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3088,7 +3089,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3102,7 +3103,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3116,7 +3117,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3130,7 +3131,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3144,7 +3145,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3158,7 +3159,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3172,7 +3173,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3186,7 +3187,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 20.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3200,7 +3201,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3214,7 +3215,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3228,7 +3229,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3242,7 +3243,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3256,7 +3257,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3270,7 +3271,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.890 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3284,7 +3285,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3298,7 +3299,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3312,7 +3313,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3326,7 +3327,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3340,7 +3341,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.180 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3354,7 +3355,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3368,7 +3369,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3382,7 +3383,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3396,7 +3397,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3410,7 +3411,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3424,7 +3425,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3438,7 +3439,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3452,7 +3453,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3466,7 +3467,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 23.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3480,7 +3481,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 23.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3494,7 +3495,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3508,7 +3509,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 17.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3522,7 +3523,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3536,7 +3537,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3550,7 +3551,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3564,7 +3565,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3578,7 +3579,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3592,7 +3593,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3606,7 +3607,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3620,7 +3621,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3634,7 +3635,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.280 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3648,7 +3649,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.410 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3662,7 +3663,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.390 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3676,7 +3677,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3690,7 +3691,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3704,7 +3705,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.880 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3718,7 +3719,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3732,7 +3733,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3746,7 +3747,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3760,7 +3761,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3774,7 +3775,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 41.730 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3788,7 +3789,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3802,7 +3803,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.910 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3816,7 +3817,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 28.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3830,7 +3831,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3844,7 +3845,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3858,7 +3859,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3872,7 +3873,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3886,7 +3887,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3900,7 +3901,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3914,7 +3915,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3928,7 +3929,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3942,7 +3943,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3956,7 +3957,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.170 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3970,7 +3971,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.690 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3984,7 +3985,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -3998,7 +3999,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4012,7 +4013,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4026,7 +4027,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.790 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4040,7 +4041,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4054,7 +4055,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4068,7 +4069,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4082,7 +4083,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.890 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4096,7 +4097,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4110,7 +4111,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4124,7 +4125,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4138,7 +4139,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4152,7 +4153,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4166,7 +4167,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.590 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4180,7 +4181,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 24.520 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4194,7 +4195,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.820 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4208,7 +4209,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.480 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4222,7 +4223,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.480 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4236,7 +4237,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4250,7 +4251,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4264,7 +4265,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.550 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4278,7 +4279,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.900 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4292,7 +4293,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.790 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4306,7 +4307,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4320,7 +4321,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.690 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4334,7 +4335,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4348,7 +4349,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4362,7 +4363,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.240 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4376,7 +4377,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4390,7 +4391,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4404,7 +4405,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.500 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4418,7 +4419,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4432,7 +4433,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4446,7 +4447,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4460,7 +4461,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4474,7 +4475,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4488,7 +4489,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.290 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4502,7 +4503,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4516,7 +4517,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4530,7 +4531,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4544,7 +4545,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4558,7 +4559,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4572,7 +4573,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4586,7 +4587,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.390 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4600,7 +4601,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4614,7 +4615,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4628,7 +4629,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.410 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4642,7 +4643,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4656,7 +4657,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4670,7 +4671,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4684,7 +4685,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4698,7 +4699,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4712,7 +4713,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.550 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4726,7 +4727,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4740,7 +4741,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4754,7 +4755,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4768,7 +4769,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4782,7 +4783,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4796,7 +4797,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4810,7 +4811,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4824,7 +4825,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.920 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4838,7 +4839,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4852,7 +4853,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4866,7 +4867,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.820 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4880,7 +4881,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4894,7 +4895,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4908,7 +4909,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 16.930 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4922,7 +4923,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4936,7 +4937,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4950,7 +4951,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4964,7 +4965,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4978,7 +4979,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -4992,7 +4993,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.930 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5006,7 +5007,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.140 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5020,7 +5021,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5034,7 +5035,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5048,7 +5049,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.890 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5062,7 +5063,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5076,7 +5077,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.790 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5090,7 +5091,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5104,7 +5105,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.140 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5118,7 +5119,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.240 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5132,7 +5133,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5146,7 +5147,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5160,7 +5161,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5174,7 +5175,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5188,7 +5189,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5202,7 +5203,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5216,7 +5217,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5230,7 +5231,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.210 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5244,7 +5245,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5258,7 +5259,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5272,7 +5273,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5286,7 +5287,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.760 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5300,7 +5301,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5314,7 +5315,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5328,7 +5329,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5342,7 +5343,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5356,7 +5357,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.130 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5370,7 +5371,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5384,7 +5385,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.970 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5398,7 +5399,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5412,7 +5413,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5426,7 +5427,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5440,7 +5441,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5454,7 +5455,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.550 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5468,7 +5469,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.150 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5482,7 +5483,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5496,7 +5497,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">Цену уточняйте у менеджера</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5510,7 +5511,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.760 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5524,7 +5525,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 4.970 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5538,7 +5539,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5552,7 +5553,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5566,7 +5567,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5580,7 +5581,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5594,7 +5595,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5608,7 +5609,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5622,7 +5623,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5636,7 +5637,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5650,7 +5651,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5664,7 +5665,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5678,7 +5679,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5692,7 +5693,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5706,7 +5707,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.160 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5720,7 +5721,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5734,7 +5735,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.140 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5748,7 +5749,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5762,7 +5763,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5776,7 +5777,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.400 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5790,7 +5791,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5804,7 +5805,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.280 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5818,7 +5819,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5832,7 +5833,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5846,7 +5847,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5860,7 +5861,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.650 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5874,7 +5875,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5888,7 +5889,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5902,7 +5903,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5916,7 +5917,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.530 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5930,7 +5931,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5944,7 +5945,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5958,7 +5959,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.540 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5972,7 +5973,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -5986,7 +5987,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6000,7 +6001,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 23.280 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6014,7 +6015,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.930 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6028,7 +6029,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6042,7 +6043,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6056,7 +6057,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6070,7 +6071,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6084,7 +6085,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6098,7 +6099,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 17.620 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6112,7 +6113,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.860 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6126,7 +6127,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6140,7 +6141,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.760 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6154,7 +6155,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.140 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6168,7 +6169,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.690 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6182,7 +6183,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.930 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6196,7 +6197,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.810 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6210,7 +6211,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6224,7 +6225,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6238,7 +6239,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6252,7 +6253,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6266,7 +6267,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6280,7 +6281,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 18.590 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6294,7 +6295,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.760 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6308,7 +6309,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6322,7 +6323,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6336,7 +6337,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6350,7 +6351,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6364,7 +6365,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.710 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6378,7 +6379,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.410 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6392,7 +6393,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6406,7 +6407,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 16.520 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6420,7 +6421,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6434,7 +6435,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6448,7 +6449,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6462,7 +6463,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 22.450 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6476,7 +6477,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6490,7 +6491,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6504,7 +6505,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.480 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6518,7 +6519,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 19.690 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6532,7 +6533,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 19.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6546,7 +6547,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 19.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6560,7 +6561,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6574,7 +6575,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.460 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6588,7 +6589,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.510 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6602,7 +6603,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.960 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6616,7 +6617,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.340 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6630,7 +6631,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6644,7 +6645,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6658,7 +6659,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.720 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6672,7 +6673,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6686,7 +6687,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6700,7 +6701,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6714,7 +6715,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6728,7 +6729,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.150 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6742,7 +6743,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.820 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6756,7 +6757,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.650 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6770,7 +6771,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6784,7 +6785,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6798,7 +6799,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6812,7 +6813,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 19.370 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6826,7 +6827,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6840,7 +6841,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6854,7 +6855,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6868,7 +6869,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6882,7 +6883,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 15.910 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6896,7 +6897,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6910,7 +6911,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 3.780 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6924,7 +6925,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.600 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6938,7 +6939,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6952,7 +6953,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6966,7 +6967,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6980,7 +6981,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 4.480 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -6994,7 +6995,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7008,7 +7009,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7022,7 +7023,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.990 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7036,7 +7037,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7050,7 +7051,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7064,7 +7065,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 5.380 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7078,7 +7079,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.180 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7092,7 +7093,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 4.980 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7106,7 +7107,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7120,7 +7121,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.280 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7134,7 +7135,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7148,7 +7149,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 6.890 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7162,7 +7163,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.580 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7176,7 +7177,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7190,7 +7191,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7204,7 +7205,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.470 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7218,7 +7219,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 11.230 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7232,7 +7233,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7246,7 +7247,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7260,7 +7261,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.000 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7274,7 +7275,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.200 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7288,7 +7289,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.680 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7302,7 +7303,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7316,7 +7317,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7330,7 +7331,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.750 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7344,7 +7345,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 12.310 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7358,7 +7359,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 9.300 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7372,7 +7373,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7386,7 +7387,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 7.850 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7400,7 +7401,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.100 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7414,7 +7415,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 14.410 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7428,7 +7429,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 10.270 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7442,7 +7443,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 13.440 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7456,7 +7457,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7470,7 +7471,7 @@ ol li{
                 <!— Цена -->
                 <p class="price">От 8.610 ₽</p>
                 <!— Корзина -->
-                <button onclick="buy(this)">Заказать</button>
+                <button onclick="buy(this)">Купить</button>
             </div>
         </section>
     </li>
@@ -7484,6 +7485,13 @@ ol li{
         buttons[but].onclick = function(event)
         {
             var parentNode = event.target.parentNode; //div class="card"
+            var newWin = window.open('page.html')
+            newWin.onload = function(){
+                var ident = newWin.document.getElementById('identification');
+                  ident.innerText = parentNode.querySelector('h3').innerHTML;
+                var ident = newWin.document.getElementById('photka');
+                  ident.src = parentNode.querySelector('img').src;
+                };
             let date = {name: parentNode.querySelector('h3').innerHTML, price: parentNode.querySelector('.price').innerHTML, img: parentNode.querySelector('img').src}
             tg.sendData(JSON.stringify(date));
         };
