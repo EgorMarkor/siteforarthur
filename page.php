@@ -9,8 +9,5 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-  <img id='photka' src="<?=$_COOKIE['photo']?>" alt="">
-  <h3 id="identification"><?=$_COOKIE['zagolovok']?></h3>
-  <button type="button" name="button">Оплатить</button>
 </body>
 </html>
