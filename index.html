@@ -7485,15 +7485,10 @@ ol li{
         buttons[but].onclick = function(event)
         {
             var parentNode = event.target.parentNode; //div class="card"
-            var newWin = window.open('page.html')
-            newWin.onload = function(){
-                var ident = newWin.document.getElementById('identification');
-                  ident.innerText = parentNode.querySelector('h3').innerHTML;
-                var ident = newWin.document.getElementById('photka');
-                  ident.src = parentNode.querySelector('img').src;
-                };
-            let date = {name: parentNode.querySelector('h3').innerHTML, price: parentNode.querySelector('.price').innerHTML, img: parentNode.querySelector('img').src}
-            tg.sendData(JSON.stringify(date));
+            $.cookie('photo', parentNode.querySelector('img').src)
+            $.cookie('zagolovok', parentNode.querySelector('h3').innerHTML)
+            $.cookie('price', parentNode.querySelector('.price').innerHTML)
+            window.open('page.html',"_self",false)
         };
     }
 
