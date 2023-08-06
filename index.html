@@ -7485,10 +7485,23 @@ ol li{
         buttons[but].onclick = function(event)
         {
             var parentNode = event.target.parentNode; //div class="card"
-            $.cookie('photo', parentNode.querySelector('img').src)
-            $.cookie('zagolovok', parentNode.querySelector('h3').innerHTML)
-            $.cookie('price', parentNode.querySelector('.price').innerHTML)
-            window.open('page.html',"_self",false)
+            $(document).ready(function () {
+                createCookie("photo", parentNode.querySelector('img').src, "10");
+                createCookie("zagolovok", parentNode.querySelector('h3').innerHTML, "10");
+              });
+            function createCookie(name, value, days) {
+            var expires;
+            if (days) {
+              var date = new Date();
+              date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+              expires = "; expires=" + date.toGMTString();
+            }
+            else {
+              expires = "";
+            }
+            document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+            }
+            var newWin = window.open('page.html',"_self",false)
         };
     }
 

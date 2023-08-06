@@ -10,8 +10,7 @@
 </head>
 <body>
   <img id='photka' src="<?=$_COOKIE['photo']?>" alt="">
-  <h3 id="identification"><?=$_COOKIE['user']?></h3>
-  <p id='price'><?=$_COOKIE['user']?></p>
+  <h3 id="identification"><?=$_COOKIE['zagolovok']?></h3>
   <button type="button" name="button">Оплатить</button>
 </body>
 </html>
