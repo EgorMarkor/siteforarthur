@@ -8814,7 +8814,7 @@ ol li{
         buttons[but].onclick = function(event)
         {
             var parentNode = event.target.parentNode; //div class="card"
-            var wnd = window.open("page.html","_self",false);
+            var wnd = window.open("page","_self",false);
             localStorage.setItem("zagolovok", parentNode.querySelector('h3').innerHTML);
             localStorage.setItem("ssilka", parentNode.querySelector('img').src);
             localStorage.setItem("price", parentNode.querySelector('.price').innerHTML);
