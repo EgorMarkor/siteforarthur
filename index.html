@@ -35,34 +35,42 @@
             height: 202.96px;
             font-family: Montserrat;
             border-radius: 10.36px;
-            white-space: nowrap;
-            overflow: hidden;
-            padding: 5px;
-            text-overflow: ellipsis;
         }
         .card img {
+            margin-top: 10px;
             width: 143.93px;
             height: 107.69px;
             border-radius: 10.36px;
+            display: block;
+            margin-left: 10px;
+
         }
-        .card h3 {
-            font-size: 8.57px;
-            color: white;
-            margin-bottom: 100px;
+        .card .nametov {
+            font-size: 9px;
             padding-left: 11px;
+            height: 18px;
+            width: calc(95%);
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
         }
         .price {
+            margin-top: 10px;
             color: white;
             font-size: 15.92px;
             padding-left: 11px;
-            margin: 0;
         }
 
 
         .card button {
             border: none;
             margin-left: 11px;
-            margin-bottom: 3px;
+            margin-bottom: 10px;
             outline: 0;
             padding: 10px;
             color: #fff;
@@ -118,7 +126,7 @@
                 <img src="images/IMG_3304.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Air Force 1 Low LX "Mica Green"</h3>
+                <div class="nametov">Nike Air Force 1 Low LX "Mica Green"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="buy(this)">Заказать</button>
@@ -132,7 +140,7 @@
                 <img src="images/IMG_3305.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Air Force 1 Low LX "Team Gold"</h3>
+                <div class="nametov">Nike Air Force 1 Low LX "Team Gold"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="buy(this)">Заказать</button>
@@ -146,7 +154,7 @@
                 <img src="images/IMG_3357.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Air Force 1 Low Royal Blue"</h3>
+                <div class="nametov">Nike Air Force 1 Low Royal Blue"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="buy(this)">Заказать</button>
@@ -160,7 +168,7 @@
                 <img src="images/IMG_3356.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Air Force 1 Low "Malachite"</h3>
+                <div class="nametov">Nike Air Force 1 Low "Malachite"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="buy(this)">Заказать</button>
@@ -174,7 +182,7 @@
                 <img src="images/IMG_3355.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Air Force 1 Low "Multi-Swoosh"</h3>
+                <div class="nametov">Nike Air Force 1 Low "Multi-Swoosh"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="alert(this.parentNode.innerText">Заказать</button>
@@ -188,7 +196,7 @@
                 <img src="images/IMG_3459.PNG" alt="Фотокарточка товара">
                 <!— Название -->
                 <p class="price">От 10.500 ₽</p>
-                <h3>Nike Dunk Low Scrap "Black OLive"</h3>
+                <div class="nametov">Nike Dunk Low Scrap "Black OLive"</div>
                 <!— Цена -->
                 <!— Корзина -->
                 <button onclick="alert(this.parentNode.innerText">Заказать</button>
